@@ -3,7 +3,7 @@ Use TensorFlow object detection API and MobileNet SSDLite model to train a pedes
 
 ## Use pip install the package
 
-```pip install git+https://github.com/cftang0827/pedestrian_detection_ssdlite```
+```pip install git+https://github.com/garyburgmann/pedestrian_detection_ssdlite```
 
 After installation, you can use the API:
 ```python
