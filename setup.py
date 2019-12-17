@@ -15,9 +15,9 @@ setup(
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.6',
     ],
-    url='https://github.com/cftang0827/pedestrian_detection_ssdlite',
-    author='cftang0827',
-    author_email='cftang0827@gmail.com',
+    url='https://github.com/garyburgmann/pedestrian_detection_ssdlite',
+    author='Gary Burgmann',
+    author_email='garyburgmann@gmail.com',
     license='MIT',
     packages=['pedestrian_detection_ssdlite'],
     package_dir={
@@ -25,7 +25,7 @@ setup(
     },
     package_data={'pedestrian_detection_ssdlite': ['*.pb']},
     install_requires=[
-        'tensorflow',
+        'tensorflow<2',
         'numpy',
     ],
     include_package_data=True,
