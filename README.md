@@ -1,6 +1,9 @@
 # pedestrian_detection_ssdlite
 Use TensorFlow object detection API and MobileNet SSDLite model to train a pedestrian detector by using VOC 2007 + 2012 dataset
 
+Forked from https://github.com/cftang0827/pedestrian_detection_ssdlite with many thanks :)
+This fork pins tensorfow version and includes dependencies.
+
 ## Use pip install the package
 
 ```pip install git+https://github.com/garyburgmann/pedestrian_detection_ssdlite```
