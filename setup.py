@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name='pedestrian-detection-ssdlite',
-    version='0.1',
+    version='0.2',
     classifiers=[
         'Development Status :: 3 - Alpha',
         'License :: OSI Approved :: MIT License',
@@ -25,7 +25,7 @@ setup(
     },
     package_data={'pedestrian_detection_ssdlite': ['*.pb']},
     install_requires=[
-        'tensorflow<2',
+        'tensorflow>=2',
         'opencv-python>=4',
         'numpy',
     ],

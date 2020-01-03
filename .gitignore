@@ -1,4 +1,9 @@
+# ide
 .vscode
+
+# app specific
+frozen_inference_graph.tar.gz
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
